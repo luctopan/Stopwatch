@@ -1,4 +1,6 @@
-﻿namespace Stopwatch
+﻿using System;
+
+namespace Stopwatch
 {
     class Program
     {
@@ -27,7 +29,6 @@
                 System.Environment.Exit(0);
 
             PreStart(time * multiplier);
-
         }
 
         static void PreStart(int time)
@@ -61,5 +62,4 @@
         }
 
     }
-
 }
